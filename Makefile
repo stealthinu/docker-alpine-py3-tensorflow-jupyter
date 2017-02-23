@@ -1,4 +1,4 @@
-IMAGE_NAME := alpine-py3-tensorflow-jupyter
+IMAGE_NAME := stealthinu/alpine-py3-tensorflow-jupyter-datasets
 IMAGE_TAG := 1.0.0
 
 .PHONY: all clean build

@@ -1,7 +1,7 @@
 version: '2'
 services:
-  tensorflow_jupyter:
-    image: tatsushid/alpine-py3-tensorflow-jupyter:latest
+  naganodeeplearning:
+    image: stealthinu/alpine-py3-tensorflow-jupyter-datasets:latest
     ports:
       - 8888:8888
     volumes:
